@@ -20,7 +20,7 @@ class Author
     @@post << title
   end
   
-  def post_count
+  def self.post_count
     @@post.length
   end
 end
