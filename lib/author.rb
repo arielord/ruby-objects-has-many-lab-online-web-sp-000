@@ -15,7 +15,7 @@ class Author
   
   def add_post_by_title(title)
     title = Post.new(title)
-    tile.author = self
+    title.author = self
     self.posts << title
     @@post << title
   end
